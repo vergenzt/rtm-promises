@@ -1,0 +1,35 @@
+{
+  "name": "rtm-promises",
+  "version": "0.0.1",
+  "description": "Simple Remember the Milk wrapper using promises.",
+  "main": "index-esm.js",
+  "scripts": {
+    "test": "RTM_API_KEY=abc123 RTM_API_SECRET=BANANAS mocha -r esm -r chai/register-expect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vergenzt/rtm-promises.git"
+  },
+  "keywords": [
+    "rtm",
+    "remember",
+    "the",
+    "milk"
+  ],
+  "author": "Tim Vergenz <vergenzt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vergenzt/rtm-promises/issues"
+  },
+  "homepage": "https://github.com/vergenzt/rtm-promises#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "esm": "^3.0.66",
+    "lodash": "^4.17.10",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
